@@ -1,303 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Venta Construction - MST loaders for sell</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <div class="carcass">
-        <div class="flex-container">
-            <div class="flex-item item-1">
-                
-                <a href="" name="header"><img class="logo" src="img/logo-venta.png" alt="Лого кейворд"></a>
-                
-                <ul>
-                    <li><a href="#about-us">О нас</a></li>
-                    <li><a href="#technic">О технике MST</a></li>
-                    <li><a href="#catalog">Каталог</a></li>
-                    <li class="phone">+7(999)999-99-99</li>
-                    <li class="callback">Обратный звонок</li>
-                </ul>
 
-            </div>
+    <div class="container">
+        <a name="header-link"></a>
 
-            <div class="flex-item item-2">
-                
-
-                <div>
-                    <h1>ЭКСКАВАТОРЫ - <br> ПОГРУЗЧИКИ MST</h1>
-                    <ul>
-                        <li>От официального дилера</li>
-                        <li>Гарантия X моточасов или 5 лет</li>
+            <div class="header">
+                <div class="header__col">
+                    <!-- <div class="header__logo"> -->
+                        <img src="img/logo-venta-w250.png" alt="логотип">
+                        
+                    <!-- </div> -->
+                </div>
+               
+                <div class="header__col">
+                    
+                    <ul class="header__menu">
+                        <a href="#company"><li class="header__menu-item item-1">о нас</li></a>
+                       <a href="#technics"><li class="header__menu-item item-2">о технике mst</li></a>
+                        <a href="#catalog"><li class="header__menu-item item-3">каталог</li></a>
                     </ul>
+
+                    <!-- <div class="header__menu-mobile">
+                      
+                    </div> -->
                     
                 </div>
 
-                <div>
-                    <img src="img/m544.png" alt="Трактор">
+                <div class="header__col">
+                    <ul class="header__menu">
+                        <a href="tel:+491570156"><li class="header__menu-item tel">+7(999)999-99-99</li></a>
+                        <li class="header__menu-item callback">Обратный звонок</li>
+                        
+                    </ul>
                 </div>
-                <span class="button-1">Рассчитать стоимость</span>
+
             </div>
 
-            <div class="flex-item item-3">
-                <div>
-                    <!-- Слайдер с фотографиями -->
-                    <img src="img/img-roll-1.png" alt="Фото техники">
-                </div>
-            </div>
+            <div class="header__mobile">
+            
+                <div class="header__mobile-wrapper">
 
-            <div class="flex-item item-4">
-                <div class="item-4-left-div">
-                    <a href="" name="about-us"> <h2>О НАС</h2></a>
-                        <div class="about-us-flex-container">
-                           
-                            <div class="about-us-flex-item">
-                                <img class="icon-1" src="img/icon1.png" alt="">
-                                <ul>
-                                    <li>ГАРАНТИЯ</li>
-                                    <li>Гарантийная и постгарантийная сервисная поддержка</li>
-                                </ul>
-                            </div>
-                            <div class="about-us-flex-item">
-                                <img class="icon-2" src="img/icon-2.png" alt="">
-                                <ul>
-                                    <li>ЛИЗИНГ И КРЕДИТ</li>
-                                    <li>Мы - аккредитованные партнеры в нескольких лизинговых компаниях</li>
-                                </ul>
-                            </div>
-                            <div class="about-us-flex-item">
-                                <img class="icon-3" src="img/icon-3.png" alt="">
-                                <ul>
-                                    <li>СКЛАД</li>
-                                    <li>Все запчасти есть в наличии на нашем складе</li>
-                                </ul>
-                            </div>
-                            <div class="about-us-flex-item">
-                                <img class="icon-4" src="img/icon-4.png" alt="">
-                                <ul>
-                                    <li>СЕРВИС</li>
-                                    <li>Собственная сервисная служба</li>
-                                </ul>
-                            </div>
-
+                    <div>
+                        <!-- <img src="/img/icon-burger.png" alt=""> -->
+                        <div class="wrapper">
+                            <input type="checkbox" id="check-menu">
+                            <label for="check-menu"></label>
+                            
+                            <div class="burger-line a1"></div>
+                            <div class="burger-line a2"></div>
+                            <div class="burger-line a3"></div>
+                            <div class="burger-line a4"></div>
+                    
+                            <nav class="main-menu">
+                                <a href="#company">О нас</a>
+                                <a href="#technics">О технике MST</a>
+                                <a href="#catalog">Каталог</a>
+                                <a href="#contacts">Контакты</a>
+                            </nav>
+                    
                         </div>
-                </div>
-
-                <div class="item-4-right-div">
-                    <ul>
-                        <li>VENTA CONSTRUCTION LTD. занимается поставками экскаваторов-погрузчиков строительным, коммунальным, сельскохозяйственным и другим компаниям на территории СНГ.</li>
-                        <li>Наша цель - повысить уровень технической оснащенности компаний и помочь им выйти на новый уровень развития.</li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="flex-item item-5">
-                <a href="" name="technic"><h2>ОЦЕНИТЕ ПРЕИМУЩЕСТВА ТЕХНИКИ MST</h2></a>
-
-                <div class="item-5-left-div">
-                    <img src="img/traktor-2a.png" alt="Ключевое слово про трактор">
-                </div> 
-                <div class="item-5-right-div">
-                    <ul>
-                        <li>Турецкая компания MST применяет новейшие технологии в производстве, для полноценного реагирования на потребности клиентов по всему миру.</li>
-                        <li>Продавая высокотехнологичные строительные машины в более чем 30 стран мира, MST владеет земельными участками для производственных нужд общей площадью в 500.000 м2, из которой 40.000 м2 крытой площади.</li>
-                    </ul> 
-
-                    <span class="button-1">Рассчитать стоимость</span>
-                    
-                </div>
-
-                <div class="baffs-flex-container">
-                    <div class="baffs-flex-item">
-                        <!-- <img class="icon-1" src="img/icon1.png" alt=""> -->
-                        <ul>
-                            <li>ГИДРАВЛИЧЕСКАЯ РАЗВОДКА</li>
-                            <li>Гидравлически разведет кого угодно</li>
-                        </ul>
                     </div>
 
-                    <div class="baffs-flex-item">
-                        <!-- <img class="icon-1" src="img/icon1.png" alt=""> -->
-                        <ul>
-                            <li>Телескопическая стрела</li>
-                            <li>Как стрела, но телескопическая</li>
-                        </ul>
+
+                    <div>
+                        <img src="/img/logo-ventamobile.png" alt="">
                     </div>
 
-                    <div class="baffs-flex-item">
-                        <!-- <img class="icon-1" src="img/icon1.png" alt=""> -->
-                        <ul>
-                            <li>Многочелюстной грейфер</li>
-                            <li>Что-то больше чем с одной челюстью</li>
-                        </ul>
+                    <div>
+                        <h1>venta<br>construction</h1>
                     </div>
 
-                    <div class="baffs-flex-item">
-                        <!-- <img class="icon-1" src="img/icon1.png" alt=""> -->
-                        <ul>
-                            <li>Специальный ковш</li>
-                            <li>Узкий ковш с алмазными зубьями и стразами</li>
-                        </ul>
+                    <div>
+                        <h2>ЭКСКАВАТОРЫ ПОГРУЗЧИКИ MST</h2>
                     </div>
 
-                    <div class="baffs-flex-item">
-                        <!-- <img class="icon-1" src="img/icon1.png" alt=""> -->
-                        <ul>
-                            <li>Кондиционер</li>
-                            <li>Опция для повышения расхода топлива</li>
-                        </ul>
+                    <div>
+                        <img src="img/traktor-mobile.png" alt="">
                     </div>
 
-                    <div class="baffs-flex-item">
-                        <!-- <img class="icon-1" src="img/icon1.png" alt=""> -->
-                        <ul>
-                            <li>Вилы</li>
-                            <li>Не давайте использовать злым крестьянам</li>
-                        </ul>
+                    <div class="header__mobile__callback">
+                        <span class="mobile-callback">Обратный звонок</span>
                     </div>
 
-                    <div class="baffs-flex-item">
-                        <!-- <img class="icon-1" src="img/icon1.png" alt=""> -->
-                        <ul>
-                            <li>Шнековый бур</li>
-                            <li>Ищем воду, подземные кабели и нефть</li>
-                        </ul>
+                    <div>
+                        <p>Киев, ул. Такая-то - 6</p>
                     </div>
-
-                    <div class="baffs-flex-item">
-                        <!-- <img class="icon-1" src="img/icon1.png" alt=""> -->
-                        <ul>
-                            <li>Рыхлитель</li>
-                            <li>Применяется в паре с разрыхлителем</li>
-                        </ul>
-                    </div>
-
-                    <div class="baffs-flex-item">
-                        <!-- <img class="icon-1" src="img/icon1.png" alt=""> -->
-                        <ul>
-                            <li>Грейдерный отвал</li>
-                            <li>Очень нужная вещь, отвал полный</li>
-                        </ul>
-                    </div>
-
-                    <div class="baffs-flex-item">
-                        <!-- <img class="icon-1" src="img/icon1.png" alt=""> -->
-                        <ul>
-                            <li>Захват для лесоматериалов</li>
-                            <li>Опция для захвата лесопилки противника</li>
-                        </ul>
-                    </div>
-
-                    <div class="baffs-flex-item">
-                        <!-- <img class="icon-1" src="img/icon1.png" alt=""> -->
-                        <ul>
-                            <li>SRS</li>
-                            <li>Система стабилизации при движении боком</li>
-                        </ul>
-                    </div>
-                </div>
-
                 
-            </div>
-
-            
-
-            <div class="flex-item item-6">
-                <div>
-                    <!-- Слайдер с фотографиями -->
-                    <img src="img/img-roll-2.png" alt="Фото техники">
                 </div>
-
+    
             </div>
 
-            <div class="flex-item item-7">
-               <a href="" name="catalog"><h2>КАТАЛОГ ТЕХНИКИ</h2></a> 
-                <div class="catalog-flex-container">
-                    <div class="catalog-flex-item">
-                        <h3>MST M542</h3>
-                        <img src="img/thumb-traktor-1.png" alt="трактор">
-                        <span class="button-2">Рассчитать стоимость</span>
-                        <span class="button-3">Характеристики</span>
-                    </div>
+            <div class="content">
 
-                    <div class="catalog-flex-item">
-                        <h3>MST M542 PLUS</h3>
-                        <img src="img/thumb-traktor-2.png" alt="трактор">
-                        <span class="button-2">Рассчитать стоимость</span>
-                        <span class="button-3">Характеристики</span>
-                    </div>
+                <div class="content__block-1">
+                    <!-- <div class="flex-item"> -->
 
-                    <div class="catalog-flex-item">
-                        <h3>MST M544</h3>
-                        <img src="img/thumb-traktor-3.png" alt="трактор">
-                        <span class="button-2">Рассчитать стоимость</span>
-                        <span class="button-3">Характеристики</span>
-                    </div>
+                        <div>
+                            <h1>ЭКСКАВАТОРЫ - <br> ПОГРУЗЧИКИ MST</h1>
+                            <ul>
+                                <li>От официального дилера</li>
+                                <li>Гарантия X моточасов или 5 лет</li>
+                            </ul>
 
-                    <div class="catalog-flex-item">
-                        <h3>MST M544 PLUS</h3>
-                        <img src="img/thumb-traktor-4.png" alt="трактор">
-                        <span class="button-2">Рассчитать стоимость</span>
-                        <span class="button-3">Характеристики</span>
-                    </div>
-                </div>
-            </div>
-
-
-            
-           
-
-        </div>
+                            <span class="button-1">Рассчитать стоимость</span>
+                        </div>
         
-            <div class="button-4">
-            <a href="#header">^</a>  
-            </div>
+                        <div>
+                            <img src="img/m544.png" alt="Трактор">
+                        </div>
+                        
+                    <!-- </div> -->
+                </div>
 
+                <div class="content__block-2">
+                    <div>
+                        <!-- вставить слайдер с фотографиями -->
+                        <img src="img/img-roll-1.png" alt="Фото техники">
+                    </div>
+                </div>
+
+                <a href="" name="company"><h2>О НАС</h2></a>
+
+                <div class="content__block-3">
+
+                    <div class="content__block-3-1">
+
+                        <div class="about__flex-item">
+                            <div class="row-1">
+                                <img src="img/icon-1.png" alt="">
+                                <h3>Гарантия</h3>
+                            </div>
+                            <div class="row-2">
+                                <p>Гарантийная и постгарантийная сервисная поддержка</p>
+                            </div>
+                        </div>
+
+                        <div class="about__flex-item">
+                            <div class="row-1">
+                                <img src="img/icon-2.png" alt="">
+                                <h3>ЛИЗИНГ И КРЕДИТ</h3>
+                            </div>
+                            <div class="row-2">
+                                <p>Мы - аккредитованные партнеры в нескольких лизинговых компаниях</p>
+                            </div>
+                        </div>
+
+                        <div class="about__flex-item">
+                            <div class="row-1">
+                                <img src="img/icon-3.png" alt="">
+                                <h3>СКЛАД</h3>
+                            </div>
+                            <div class="row-2">
+                                <p>Все запчасти есть в наличии на нашем складе</p>
+                            </div>
+                        </div>
+
+                        <div class="about__flex-item">
+                            <div class="row-1">
+                                <img src="img/icon-4.png" alt="">
+                                <h3>СЕРВИС</h3>
+                            </div>
+                            <div class="row-2">
+                                <p>Собственная сервисная служба</p>
+                            </div>
+                        </div>
+
+
+                        <!-- <a href="" name="about-us"> <h2 class="mobile-order1">О НАС</h2></a>
+                            <div class="about-us__flex-container">
+                               
+                                <div class="about-us__flex-item">
+                                    <img class="icon-1" src="img/icon1.png" alt="">
+                                    <ul>
+                                        <li>ГАРАНТИЯ</li>
+                                        <li>Гарантийная и постгарантийная сервисная поддержка</li>
+                                    </ul>
+                                </div>
+                                <div class="about-us__flex-item">
+                                    <img class="icon-2" src="img/icon-2.png" alt="">
+                                    <ul>
+                                        <li>ЛИЗИНГ И КРЕДИТ</li>
+                                        <li>Мы - аккредитованные партнеры в нескольких лизинговых компаниях</li>
+                                    </ul>
+                                </div>
+                                <div class="about-us__flex-item">
+                                    <img class="icon-3" src="img/icon-3.png" alt="">
+                                    <ul>
+                                        <li>СКЛАД</li>
+                                        <li>Все запчасти есть в наличии на нашем складе</li>
+                                    </ul>
+                                </div>
+                                <div class="about-us__flex-item">
+                                    <img class="icon-4" src="img/icon-4.png" alt="">
+                                    <ul>
+                                        <li>СЕРВИС</li>
+                                        <li>Собственная сервисная служба</li>
+                                    </ul>
+                                </div>
+    
+                            </div> -->
+                    </div>
+    
+                    <div class="content__block-3-2">
+                        <ul>
+                            <li>VENTA CONSTRUCTION LTD. занимается поставками экскаваторов-погрузчиков строительным, коммунальным, сельскохозяйственным и другим компаниям на территории СНГ.</li>
+                            <li>Наша цель - повысить уровень технической оснащенности компаний и помочь им выйти на новый уровень развития.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <a href="" name="technics"><h2>ОЦЕНИТЕ ПРЕИМУЩЕСТВА ТЕХНИКИ MST</h2></a>
+
+                <div class="content__block-4">
+                    <div class="row-4-1">
+                        <div class="row-4-1__col-1">
+                            <img src="img/traktor-2a.png" alt="Ключевое слово про трактор">
+                        </div>
+                        <div class="row-4-1__col-2">
+                            <ul>
+                                <li>Турецкая компания MST применяет новейшие технологии в производстве, для полноценного реагирования на потребности клиентов по всему миру.</li>
+                                <li>Продавая высокотехнологичные строительные машины в более чем 30 стран мира, MST владеет земельными участками для производственных нужд общей площадью в 500.000 м2, из которой 40.000 м2 крытой площади.</li>
+                            </ul> 
+        
+                            <span class="button-1">Рассчитать стоимость</span>
+                        </div>
+                    </div>
+
+                    <div class="row-4-2">
+                        <div class="row-4-2__flex-item">
+                            <h3>ГИДРАВЛИЧЕСКАЯ РАЗВОДКА</h3>
+                            <p>Гидравлически разведет что угодно</p>
+                        </div>
+                        <div class="row-4-2__flex-item">
+                            <h3>Телескопическая стрела</h3>
+                            <p>Как стрела, но телескопическая</p>
+                        </div>
+                        <div class="row-4-2__flex-item">
+                            <h3>Многочелюстной грейфер</h3>
+                            <p>Что-то больше чем с одной челюстью</p>
+                        </div>
+                        <div class="row-4-2__flex-item">
+                            <h3>Специальный ковш</h3>
+                            <p>Узкий ковш с алмазными зубьями и стразами</p>
+                        </div>
+                        <div class="row-4-2__flex-item">
+                            <h3>Кондиционер</h3>
+                            <p>Опция для повышения расхода топлива</p>
+                        </div>
+                        <div class="row-4-2__flex-item">
+                            <h3>Вилы</h3>
+                            <p>Не давайте использовать злым крестьянам</p>
+                        </div>
+                        <div class="row-4-2__flex-item">
+                            <h3>Шнековый бур</h3>
+                            <p>Ищем воду, подземные кабели и нефть</p>
+                        </div>
+                        <div class="row-4-2__flex-item">
+                            <h3>Рыхлитель</h3>
+                            <p>Применяется в паре с разрыхлителем</p>
+                        </div>
+                        <div class="row-4-2__flex-item">
+                            <h3>Грейдерный отвал</h3>
+                            <p>Очень нужная вещь, отвал полный</p>
+                        </div>
+                        <div class="row-4-2__flex-item">
+                            <h3>Захват для лесоматериалов</h3>
+                            <p>Опция для захвата лесопилки противника</p>
+                        </div>
+                        <div class="row-4-2__flex-item">
+                            <h3>SRS</h3>
+                            <p>Система стабилизации при движении боком</p>
+                        </div>
+                    </div>
+
+                    <div class="row-4-3">
+                        <div>
+                            <!-- Слайдер с фотографиями -->
+                            <img src="img/img-roll-2.png" alt="Фото техники">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <a href="" name="catalog"><h2>Каталог техники</h2></a>
+                <div class="content__block-5">
+                    <div class="row-5-1">
+                        <div class="row-flex-item">
+                            <h3>MST M542</h3>
+                            <img src="img/thumb-traktor-1.png" alt="трактор">
+                            <span class="button-2">Рассчитать стоимость</span>
+                            <div class="button-3">
+                                <img class="icon-pdf" src="img/icon-pdf.png" alt="">
+                               <p>Характеристики</p>
+                            </div>
+                        </div>
+                        <div class="row-flex-item">
+                            <h3>MST M542 PLUS</h3>
+                            <img src="img/thumb-traktor-2.png" alt="трактор">
+                            <span class="button-2">Рассчитать стоимость</span>
+                            <div class="button-3">
+                                <img class="icon-pdf" src="img/icon-pdf.png" alt="">
+                               <p>Характеристики</p>
+                            </div>
+                        </div>
+                        <div class="row-flex-item">
+                            <h3>MST M544</h3>
+                            <img src="img/thumb-traktor-3.png" alt="трактор">
+                            <span class="button-2">Рассчитать стоимость</span>
+                            <div class="button-3">
+                                <img class="icon-pdf" src="img/icon-pdf.png" alt="">
+                               <p>Характеристики</p>
+                            </div>
+                        </div>
+                        <div class="row-flex-item">
+                            <h3>MST M544 PLUS</h3>
+                            <img src="img/thumb-traktor-4.png" alt="трактор">
+                            <span class="button-2">Рассчитать стоимость</span>
+                            <div class="button-3">
+                                <img class="icon-pdf" src="img/icon-pdf.png" alt="">
+                               <p>Характеристики</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content__block-6">
+
+                </div>
+
+                <div class="content__block-7">
+
+                </div>
+
+                <div class="content__block-8">
+
+                </div>
+
+            </div>    
+
+
+    </div>
+
+        <div class="button-4">
+        <a href="#header-link">^</a>  
+        </div>
+    
+    <div class="footer">
+
+        <div class="footer__flex-child">
+            <img class="logo" src="img/logo-venta-footer.png" alt="Лого кейворд">
+            <strong>Продажа фронтальных <br> погрузчиков по СНГ</strong>
         </div>
 
-        <div class="footer">
+        <div class="footer__flex-child">
+            <h3 class="footer__title">Контакты и реквизиты</h3>
+            <ul>
+                <li>Venta Construction LTD.</li>
+                <li>Офис в г. Киев</li>
+                <li>ул. Такая то, д. 1, оф. 1</li>
+                <li>mail@ukr.net</li>
+               
+            </ul>
+        </div>
 
-            <div class="flex-child">
-                <img class="logo" src="img/logo-venta-footer.png" alt="Лого кейворд">
-                <strong>Продажа фронтальных <br> погрузчиков по СНГ</strong>
-            </div>
+        <div class="footer__flex-child">
+            <a name="contacts"><h3 class="footer__title">Телефоны и соц.сети</h3></a>
+            <ul >
+                <li>+7(999)999-99-99</li>
+                <li>+7(999)999-99-99</li>
+            </ul>
 
-            <div class="flex-child">
-                <h3>Контакты и реквизиты</h3>
-                <ul>
-                    <li>Venta Construction LTD.</li>
-                    <li>Офис в г. Киев</li>
-                    <li>ул. Такая то, д. 1, оф. 1</li>
-                    <li>mail@ukr.net</li>
-                   
-                </ul>
-            </div>
-
-            <div class="flex-child">
-                <h3>Телефоны и соц.сети</h3>
-                <ul >
-                    <li>+7(999)999-99-99</li>
-                    <li>+7(999)999-99-99</li>
-                </ul>
-
-                <div class="social-footer">
-                   <a href=""><img src="img/icon-telegram.png" alt=""></a> 
-                   <a href=""><img src="img/icon-facebook.png" alt=""></a> 
-                   <a href=""><img src="img/icon-instagram.png" alt=""></a> 
-                   
-                </div> 
-                
-                <span class="footer-callback">Обратный звонок</span>
-                
-            </div>
-
+            <div class="social-footer">
+               <a href=""><img src="img/icon-telegram.png" alt=""></a> 
+               <a href=""><img src="img/icon-facebook.png" alt=""></a> 
+               <a href=""><img src="img/icon-instagram.png" alt=""></a> 
+               
+            </div> 
+            
+            <span class="footer-callback">Обратный звонок</span>
             
         </div>
+
         
+    </div>
+    
+
+
+
 </body>
 
 </html>

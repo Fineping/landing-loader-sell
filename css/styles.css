@@ -85,6 +85,10 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 60px;
+  @media (max-width:767px){ 
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 30px;
+   }
 }
 
 .content__block-3 {
@@ -456,6 +460,9 @@ body {
 .footer__flex-child strong {
   font-weight: 500;
   font-size: 14px;
+  @media (max-width:767px){ 
+    margin-top: 30px;
+   }
 }
 
 .footer__flex-child ul {
